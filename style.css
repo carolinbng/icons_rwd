@@ -32,6 +32,13 @@ h4{
 
 }
 
+p{
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
 /*Icon Bar*/
 .icon-bar {
     width: 100%;
