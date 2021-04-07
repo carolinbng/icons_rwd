@@ -24,6 +24,14 @@ h3{
 
 }
 
+h4{
+    font-size: 40px;
+    font-weight: 100;
+    color: #000;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+
+}
+
 /*Icon Bar*/
 .icon-bar {
     width: 100%;
@@ -49,7 +57,6 @@ h3{
     background-color: #4CAF50; 
   }
 
-
   .container {
     position: relative;
     width: 100%;
@@ -63,7 +70,6 @@ h3{
     height: auto;
   }
   
- 
   .overlay {
     position: absolute;
     top: 0;
@@ -77,12 +83,10 @@ h3{
     background-color: rgb(114, 113, 113);
   }
   
- 
   .container:hover .overlay {
     opacity: 1;
   }
   
- 
   .icon {
     color: white;
     font-size: 100px;
@@ -94,7 +98,36 @@ h3{
     text-align: center;
   }
   
- 
   .fa-kiss-wink-heart:hover {
     color: #eee;
+  }
+
+  /*Sidebar Icon*/
+  .sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; 
+    padding: 0px 10px;
   }
