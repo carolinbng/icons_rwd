@@ -2,8 +2,10 @@ body {
     background-color: rgb(114, 113, 113);
 }
 
-.fas{
+h1{
     font-size: 80px;
+    font-weight: 200;
+    color: #000;
 }
 
 .icon-bar {
