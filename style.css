@@ -67,7 +67,7 @@ h2{
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: red;
+    background-color: rgb(255, 251, 251);
   }
   
  
